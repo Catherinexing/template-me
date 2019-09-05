@@ -24,6 +24,11 @@ footer{
   background-color: #0e202b;
 }
 
+.copy{
+  position: relative;
+  width: 50%;
+  left:25%;
+}
 .cover{
   height: 100vh;
   padding-left: 25px;
@@ -330,7 +335,8 @@ hr {
 }
 
 p {
-  margin: 0 0 10px
+  padding:0 0 10px;
+  margin: 0 ;
 }
 
 
@@ -6635,7 +6641,7 @@ section {
   /* height: 100vh; */
   padding-left: 25px;
   padding-right: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   background: 0 0
 }
 
