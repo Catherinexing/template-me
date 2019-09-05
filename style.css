@@ -27,7 +27,7 @@ footer{
 .copy{
   position: relative;
   width: 50%;
-  left:25%;
+  margin: 0 auto;
 }
 .cover{
   height: 100vh;
@@ -81,11 +81,12 @@ footer{
   top: 0;
   height:500px;
   width:800px;
-  left:25%;
+
   background-color: yellow;
   padding: 50px;
   font-size: 20px;
   z-index:10;
+  margin: 0 auto;
 }
 
 
@@ -6349,8 +6350,9 @@ header.navbar {
   background: #0e202b;
   font-family: Roboto Condensed, Helvetica, sans-serif;
   width: 100%;
-  vertical-align:bottom;
-
+  vertical-align:bottom !important;
+  position: relative;
+  bottom: 0;
 }
 
 .container--footer {
@@ -6618,6 +6620,7 @@ video::-webkit-media-controls-start-playback-button {
   vertical-align: middle;
   padding: 20vh 0;
     position: relative;
+    text-align: center;
 
 }
 
@@ -6643,7 +6646,7 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 section {
-  height: auto;
+  /* height: 100vh; */
   padding-left: 25px;
   padding-right: 0;
   /* overflow: hidden; */
@@ -7137,6 +7140,7 @@ section {
 
   .col-xl-4 {
     width: 33.3%
+
   }
 
   .col-xl-6 {
@@ -7182,11 +7186,11 @@ section {
 .copy-right{
 
   display:inline-block;
-      position: relative;
+position: relative;
   width:30%;
   top:10%;
 
-margin-left: 25%;
+margin-left: 12%;
   padding: 50px;
 }
 .sticky-left{
@@ -7199,7 +7203,7 @@ margin-left: 25%;
     top:10%;
 
     float: left;
-    left:25%;
+    left:12%;
     height:800px;
     width:600px;
   background-color: yellow;
@@ -7209,3 +7213,7 @@ margin-left: 25%;
     font-size: 20px;
     z-index:10;
 }
+
+/* .s4{
+  height: 900px;
+} */
