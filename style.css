@@ -7183,24 +7183,25 @@ section {
 
   display:inline-block;
       position: relative;
-  width:40%;
-  top:200px;
+  width:30%;
+  top:10%;
 
-margin-left: 15%;
+margin-left: 25%;
   padding: 50px;
 }
 .sticky-left{
 
     display:inline-block;
-     width:40%;
+     width:50%;
      top:100px;
-    /* position: -webkit-sticky; */
-    /* position: sticky; */
-    position: relative;
+    position: -webkit-sticky;
+    position: sticky;
+    top:10%;
+
     float: left;
-    left:15%;
+    left:25%;
     height:800px;
-    width:500px;
+    width:600px;
   background-color: yellow;
     /* left:15%;
     background-color: yellow;
@@ -7208,6 +7209,3 @@ margin-left: 15%;
     font-size: 20px;
     z-index:10;
 }
- .s4{
-   height: 900px;
- }
