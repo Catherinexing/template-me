@@ -20,6 +20,9 @@ header {
   top: 0;
   z-index: 99;
 }
+footer{
+  background-color: #0e202b;
+}
 
 .s1 {
   background-color: black;
@@ -27,15 +30,17 @@ header {
   background-size: cover;
 }
 
-.s2 {
+/* .s2 {
   background: url(img/threeMiner.jpg);
   background-size: cover;
+      background-position: center;
 }
 
 .s3 {
   background-color: black;
   background: url(img/threeMiner.jpg);
   background-size: cover;
+      background-position: center;
 }
 
 .s4 {
@@ -43,6 +48,7 @@ header {
   background: url(img/cover1.jpg);
     background-repeat: no-repeat;
   background-size: 100% auto;
+      background-position: center;
 
 }
 .s5 {
@@ -51,12 +57,31 @@ header {
     background-repeat: no-repeat;
   background-size: auto 100%;
 
-}
+} */
 .s8 {
   background-color: black;
-  /* background: url(img/threeMiner.jpg); */
   background-size: cover;
 }
+
+.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  height:500px;
+  width:800px;
+  left:25%;
+  background-color: yellow;
+  padding: 50px;
+  font-size: 20px;
+  z-index:10;
+}
+
+p,h2{
+  position: relative;
+  width:800px;
+  left:25%;
+}
+
 img{
   width:100%;
     border: 0;
