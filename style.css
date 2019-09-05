@@ -104,6 +104,8 @@ margin-top: 0;
 .section{
   background-color: black;
   display: block;
+
+
 }
 
 .text-center-bottom{
@@ -6615,7 +6617,8 @@ video::-webkit-media-controls-start-playback-button {
   display: table-cell;
   vertical-align: middle;
   padding: 20vh 0;
-left:30%
+    position: relative;
+
 }
 
 .credit_content .addthis_inline_share_toolbox_h50m {
@@ -7177,21 +7180,34 @@ section {
 }
 
 .copy-right{
-  float:right;
+
   display:inline-block;
+      position: relative;
   width:40%;
+  top:200px;
+
+margin-left: 15%;
+  padding: 50px;
 }
 .sticky-left{
-  float:left;
+
     display:inline-block;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    height:500px;
-    width:800px;
+     width:40%;
+     top:100px;
+    /* position: -webkit-sticky; */
+    /* position: sticky; */
+    position: relative;
+    float: left;
     left:15%;
+    height:800px;
+    width:500px;
+  background-color: yellow;
+    /* left:15%;
     background-color: yellow;
-    padding: 50px;
+    /* padding: 50px; */
     font-size: 20px;
     z-index:10;
 }
+ .s4{
+   height: 900px;
+ }
