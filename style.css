@@ -6662,7 +6662,7 @@ video::-webkit-media-controls-start-playback-button {
 }
 
 section {
-s */
+
   padding-left: 25px;
   padding-right: 0;
   /* overflow: hidden; */
@@ -7269,5 +7269,18 @@ margin-left: 35%;
   margin-left: 0;
   margin-right: 0;
   position: relative;
+  overflow: hidden;
   /* float:left; */
+}
+.img-fullpage{
+  height: auto;
+  width:100%;
+}
+
+figure{
+  background-color: black;
+  margin: 0;
+}
+.img-two-sameheight{
+  margin-right: 0;
 }
