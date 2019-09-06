@@ -89,19 +89,19 @@ p{
 }
 
 .sticky {
-  /* position: -webkit-sticky;
-  position: sticky; */
+position: relative;
   top: 0;
+  bottom:0;
 
   text-align: center;
 
-  height:auto;
-  width:100%;
+  /* height:auto; */
+  /* width:100%; */
 
 background-color: yellow;
   /* padding: 50px; */
   /* font-size:18px; */
-  z-index:10;
+
   margin: 0 auto;
   overflow: hidden;
 }
@@ -6600,7 +6600,7 @@ article p a {
 }
 
 body {
-  color: #dbdbdb
+  color: black;
 }
 
 article {
@@ -7263,9 +7263,13 @@ margin: 0;
 }
 
 figure{
-  background-color: black;
+  /* background-color: black; */
   margin: 0;
 }
 .img-two-sameheight{
   margin: 0;
+}
+.img-twotoghter{
+  width:48%;
+  display: inline-block;
 }
