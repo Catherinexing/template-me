@@ -10,7 +10,12 @@ body {
 }
 
 
-
+.img-twotoghter{
+  display: inline-block;
+  width:50%;
+  position: relative;
+  float:left;
+}
 header {
   width: 100%;
   background-color: #42403c;
@@ -24,6 +29,9 @@ footer{
   background-color: #0e202b;
 }
 
+p{
+  font-size: 20px;
+}
 .copy{
   position: relative;
   width: 50%;
@@ -80,12 +88,12 @@ footer{
   position: sticky;
   top: 0;
 
-  height:650px;
-  width:1000px;
+  height:auto;
+  width:100%;
 
 /* background-color: yellow; */
   /* padding: 50px; */
-  font-size: 20px;
+  font-size:18px;
   z-index:10;
   margin: 0 auto;
   overflow: hidden;
