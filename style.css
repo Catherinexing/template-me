@@ -1,5 +1,10 @@
 
-html {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+  html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%
@@ -10,12 +15,12 @@ body {
 }
 
 
-.img-twotoghter{
+/* .img-twotoghter{
   display: inline-block;
   width:50%;
   position: relative;
   float:left;
-}
+} */
 header {
   width: 100%;
   background-color: #42403c;
@@ -84,17 +89,18 @@ p{
 }
 
 .sticky {
-  position: -webkit-sticky;
-  position: sticky;
+  /* position: -webkit-sticky;
+  position: sticky; */
   top: 0;
+
   text-align: center;
 
   height:auto;
   width:100%;
 
-/* background-color: yellow; */
+background-color: yellow;
   /* padding: 50px; */
-  font-size:18px;
+  /* font-size:18px; */
   z-index:10;
   margin: 0 auto;
   overflow: hidden;
@@ -113,7 +119,7 @@ margin: 0 auto;
 }
 
 .section{
-  background-color: black;
+  background-color: white;
   display: block;
   /* height:100vh; */
 
@@ -6620,7 +6626,7 @@ video::-webkit-media-controls-start-playback-button {
 
 .row {
   margin: 0 auto;
-  max-width:1340px;
+  width:40%;
   /* text-align:center; */
 
 }
@@ -6666,7 +6672,7 @@ section {
   padding-left: 25px;
   padding-right: 0;
   /* overflow: hidden; */
-  background: 0 0
+  background-color: white;
 }
 
 #fp-nav.left {
@@ -6688,7 +6694,7 @@ section {
 }
 
 .credit_container, .planet, .viz {
-  height: 100vh;
+  /* height: 100vh; */
   background: #000;
   z-index: 10
 }
@@ -7211,34 +7217,14 @@ margin-top: 3%;
 margin-left: 35%;
   padding-left:10%;
 }
-.sticky-left{
-  height:100vh;
 
-    display:inline-block;
-     width:20%;
-     top:100px;
-    position: -webkit-sticky;
-    position: sticky;
-    top:10%;
 
-    float: left;
-    left:12%;
-    /* height:900px;
-    width:700px; */
-  /* background-color: yellow; */
-    /* left:15%;
-    background-color: yellow;
-    /* padding: 50px; */
-    font-size: 20px;
-    z-index:10;
-}
-
-.img-v{
-  height:100%;
-  width:auto;
-}
+/* .img-v{
+  height:auto;
+  width:40%;
+} */
 .img-center{
-  width:50%;
+  width:40%;
   text-align: center;
 }
 /* .s4{
@@ -7266,8 +7252,7 @@ margin-left: 35%;
   display: inline-block;
   max-height:700px;
   width:auto;
-  margin-left: 0;
-  margin-right: 0;
+margin: 0;
   position: relative;
   overflow: hidden;
   /* float:left; */
@@ -7282,5 +7267,5 @@ figure{
   margin: 0;
 }
 .img-two-sameheight{
-  margin-right: 0;
+  margin: 0;
 }
