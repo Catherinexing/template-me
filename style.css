@@ -704,7 +704,7 @@ pre code {
 .row {
   margin-right: -15px;
   margin-left: -15px;
-  text-align: center;
+  /* text-align: center; */
 
 }
 
@@ -6621,7 +6621,7 @@ video::-webkit-media-controls-start-playback-button {
 .row {
   margin: 0 auto;
   max-width:1340px;
-  text-align:center;
+  /* text-align:center; */
 
 }
 
@@ -7207,7 +7207,7 @@ position: relative;
   vertical-align: middle;
 /* vertical-align: middle; */
 
-margin-top: 10%;
+margin-top: 3%;
 margin-left: 35%;
   padding-left:10%;
 }
