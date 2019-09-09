@@ -713,6 +713,7 @@ pre code {
   margin-right: -15px;
   margin-left: -15px;
   /* text-align: center; */
+  /* padding-bottom: 0; */
 
 }
 
@@ -7283,4 +7284,12 @@ figure{
   padding: 0;
   margin: 0;
 
+}
+
+p:last-child {
+  margin-bottom: 45px;;
+}
+
+.img-left{
+  margin-right: 20px;
 }
